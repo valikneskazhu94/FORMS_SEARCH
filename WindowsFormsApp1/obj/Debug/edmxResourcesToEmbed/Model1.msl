@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bookshopsModelStoreContainer" CdmEntityContainer="bookshopsEntities">
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="bookshopsModel.Authors">
+        <MappingFragment StoreEntitySet="Authors">
+          <ScalarProperty Name="ID_AUTHOR" ColumnName="ID_AUTHOR" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="ID_COUNTRY" ColumnName="ID_COUNTRY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="bookshopsModel.Books">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="ID_BOOK" ColumnName="ID_BOOK" />
+          <ScalarProperty Name="NameBook" ColumnName="NameBook" />
+          <ScalarProperty Name="ID_THEME" ColumnName="ID_THEME" />
+          <ScalarProperty Name="ID_AUTHOR" ColumnName="ID_AUTHOR" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="DrawingOfBook" ColumnName="DrawingOfBook" />
+          <ScalarProperty Name="DateOfPublish" ColumnName="DateOfPublish" />
+          <ScalarProperty Name="Pages" ColumnName="Pages" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="bookshopsModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="ID_COUNTRY" ColumnName="ID_COUNTRY" />
+          <ScalarProperty Name="NameCountry" ColumnName="NameCountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="bookshopsModel.Sales">
+        <MappingFragment StoreEntitySet="Sales">
+          <ScalarProperty Name="ID_SALE" ColumnName="ID_SALE" />
+          <ScalarProperty Name="ID_BOOK" ColumnName="ID_BOOK" />
+          <ScalarProperty Name="NameBook" ColumnName="NameBook" />
+          <ScalarProperty Name="DateOfSale" ColumnName="DateOfSale" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ID_SHOP" ColumnName="ID_SHOP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shops">
+      <EntityTypeMapping TypeName="bookshopsModel.Shops">
+        <MappingFragment StoreEntitySet="Shops">
+          <ScalarProperty Name="ID_SHOP" ColumnName="ID_SHOP" />
+          <ScalarProperty Name="NameShop" ColumnName="NameShop" />
+          <ScalarProperty Name="ID_COUNTRY" ColumnName="ID_COUNTRY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Themes">
+      <EntityTypeMapping TypeName="bookshopsModel.Themes">
+        <MappingFragment StoreEntitySet="Themes">
+          <ScalarProperty Name="ID_THEME" ColumnName="ID_THEME" />
+          <ScalarProperty Name="NameTheme" ColumnName="NameTheme" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,12 @@
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\EntityFramework.dll
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\EntityFramework.xml
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.Cache
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5818c802ca7f4ab8bdea9d6573a92f0c" Name="Diagram1">
+        <EntityTypeShape EntityType="bookshopsModel.Authors" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="bookshopsModel.Books" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bookshopsModel.Country" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bookshopsModel.Sales" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bookshopsModel.Shops" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bookshopsModel.Themes" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="bookshopsModel.FK__Authors__ID_COUN__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="bookshopsModel.FK__Books__ID_AUTHOR__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="bookshopsModel.FK__Books__ID_THEME__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="bookshopsModel.FK__Sales__ID_BOOK__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="bookshopsModel.FK__Shops__ID_COUNTR__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="bookshopsModel.FK__Sales__ID_SHOP__1FCDBCEB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
